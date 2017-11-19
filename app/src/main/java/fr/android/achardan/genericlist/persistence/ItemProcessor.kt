@@ -3,7 +3,7 @@ package fr.android.achardan.genericlist.persistence
 import android.os.Parcelable
 
 /**
- * Generic port for a processor, could have been an invokable class if the language would have allow it
+ * Generic port for a processor, could have been an invokable class if the language would have allowed it
  */
 interface ItemProcessor<T> : Parcelable {
     /**
