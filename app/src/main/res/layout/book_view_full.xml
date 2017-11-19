@@ -15,42 +15,63 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <ImageView
-                android:id="@+id/full_Cover"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:contentDescription="Book cover"
-                app:srcCompat="@drawable/ic_launcher" />
-
             <TextView
                 android:id="@+id/full_Detail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="@dimen/full_item_title" />
+
+            <ImageView
+                android:id="@+id/full_Cover"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxWidth="100dp"
+                android:contentDescription="Book cover"
+                app:srcCompat="@drawable/ic_launcher" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
-                android:text="TITLE"
-                android:textSize="20dp" />
+                android:textStyle="italic"
+                android:textColor="@color/colorPrimary"
+                android:text="@string/price" />
+
 
             <TextView
                 android:id="@+id/full_Price"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="30dp"
-                android:text="PRICE" />
+                android:layout_marginTop="@dimen/full_item_title_value_spacing" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/full_item_padding"
+                android:textStyle="italic"
+                android:textColor="@color/colorPrimary"
+                android:text="@string/isbn" />
 
             <TextView
                 android:id="@+id/full_Isbn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:text="ISBN" />
+                android:layout_marginTop="@dimen/full_item_title_value_spacing" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/full_item_padding"
+                android:textStyle="italic"
+                android:textColor="@color/colorPrimary"
+                android:text="@string/synopsis" />
 
             <TextView
                 android:id="@+id/full_Synopsis"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:text="SYNOPSIS"
-                />
+                android:layout_marginTop="@dimen/full_item_title_value_spacing" />
 
         </LinearLayout>
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<fr.android.achardan.book.infrastructure.ui.BookItemView
+<fr.android.achardan.library.infrastructure.ui.BookItemView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -22,4 +22,4 @@
         android:layout_weight="1"
         tools:text="Henri Potier à l'école des sorciers"/>
 
-</fr.android.achardan.book.infrastructure.ui.BookItemView>
+</fr.android.achardan.library.infrastructure.ui.BookItemView>

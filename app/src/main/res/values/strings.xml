@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Anael CHARDAN Library</string>
     <string name="action_settings">Settings</string>
+    <string name="title">Harry Pottier Library</string>
+    <string name="price">Price:</string>
+    <string name="isbn">ISBN:</string>
+    <string name="synopsis">Synopsis:</string>
 </resources>
